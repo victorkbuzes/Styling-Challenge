@@ -1,0 +1,111 @@
+.topmenu {
+    background-image: url(./img/construction10.avif);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    /* background-position: 90% -25%; */
+  
+}
+
+.topbar {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    transform: scaleX(-1);
+}
+
+.contenttop {
+    transform: scaleX(-1);
+}
+.navbar {
+    word-spacing: 5px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#list1 ul li:before {
+    content: '✓';
+    color: rgb(245 158 11 );
+    font-weight: bold;
+    margin-left: -1rem;
+    margin-right: 5px;
+  }
+
+  .banner {
+    background-image: url(./images/bannerimage.jpg);
+    padding-top: 0;
+  }
+
+  .banner img {
+    width: 50px;
+    height: 50px;
+  }
+
+
+.buildingcompany {
+    background-image: url(./images/buildingcompany-bg.jpg);
+
+}
+.design {
+    background-image: url("/src/img/construction1.jpg");
+    height: 350px;
+}
+.hamburger{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25 ;
+    position: relative;
+
+}
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: #000;
+    transform: rotate(0);
+    transition: all 0.2s;
+
+
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+
+}
+.open .hamburger-middle {
+    display: none;
+}
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+
+}
+
+
+
+body {
+    background-image: url(/styling-webpage-challenge/src/images/footer-background.jpg);
+}
+
+.footer {
+    background-image: url("./images/backgroundimagetop.jpg");
+}
